@@ -223,6 +223,7 @@ public class Task3 {
         return number;
     }
 
+    // определяет, являются ли три числа ребрами прямоугольного треугольника
     public static boolean rightTriangle(int x, int y, int z) {
         int hypotenuse = 0, first = 0, second = 0;
         if (x > y && x > z) {
